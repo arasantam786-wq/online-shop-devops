@@ -1,6 +1,6 @@
 services:
   web:
-    image: devops-app:v1
+    image: ${APP_IMAGE:-devops-app:v1}
     build: .
     container_name: devops-app
     ports:

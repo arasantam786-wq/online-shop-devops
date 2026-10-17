@@ -2,5 +2,6 @@
 set -euo pipefail
 
 cd "$(dirname "$0")"
-docker compose up -d --no-build
-docker compose ps
+export APP_IMAGE="${1:-devops-app:v1}"
+docker compose -p devops-build up -d --no-build
+docker compose -p devops-build ps
