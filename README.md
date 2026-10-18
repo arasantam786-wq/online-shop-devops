@@ -101,3 +101,9 @@ Evidence will be added in the screenshots directory:
 ## Notes
 The public IP may change after stopping and starting the EC2 instance.
 Update application and monitoring URLs if that happens.
+
+## Submission evidence
+[View all deployment and monitoring screenshots](screenshots/)
+
+The folder includes Jenkins builds, Docker images, the EC2 instance,
+the deployed application, and Uptime Kuma monitoring evidence.
